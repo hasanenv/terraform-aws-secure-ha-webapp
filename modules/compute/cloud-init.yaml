@@ -1,0 +1,15 @@
+#cloud-config
+
+package_update: true
+package_upgrade: true
+
+packages:
+  - nginx
+  - awscli
+  
+runcmd:
+  - DOCROOT=/usr/share/nginx/html # Set nginx document root
+  - aws s3 sync s3://tf-hasan-site-bucket/ $DOCROOT/ --region eu-west-2 # Pull static website content from S3 into the nginx web root at boot
+
+  - systemctl restart nginx
+  - systemctl enable nginx
