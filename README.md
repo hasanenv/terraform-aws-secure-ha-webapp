@@ -22,10 +22,9 @@
 
 ## Overview
 
-This project demonstrates a production-style AWS web architecture built entirely with **Terraform**.  
-It deploys a **highly available**, **secure**, and **scalable** web application using private EC2 instances behind an Application Load Balancer, with HTTPS enforced (along with HTTP redirect) and infrastructure managed as code.
+This project demonstrates a production-style AWS web architecture built entirely with **Terraform**. 
 
-The goal was not just to make something “work”, but to design it the way you would in a real environment.
+It deploys a **highly available**, **secure**, and **scalable** web application using private EC2 instances behind an Application Load Balancer, with HTTPS enforced (along with HTTP redirect) and infrastructure managed as code.
 
 ---
 
