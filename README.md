@@ -27,6 +27,46 @@ This project demonstrates a production-style AWS web architecture built entirely
 It deploys a **highly available**, **secure**, and **scalable** web application using private EC2 instances behind an Application Load Balancer, with HTTPS enforced (along with HTTP redirect) and infrastructure managed as code.
 
 ---
+```
+terraform-aws-ha-webapp/
+├── README.md
+├── LICENSE
+├── main.tf
+├── provider.tf
+├── variables.tf
+├── outputs.tf
+├── .gitignore
+│
+├── modules/
+│   ├── vpc/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   ├── outputs.tf
+│   │   └── locals.tf
+│   │
+│   ├── alb/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   ├── outputs.tf
+│   │   └── locals.tf
+│   │
+│   └── compute/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+│       ├── locals.tf
+│       ├── cloud-init.yaml
+│       └── html5-site/
+│           ├── index.html
+│           ├── assets/
+│           └── docs/
+│
+└── assets/
+    ├── tf-aws-alb.drawio.png
+    └── site-screenshot.png
+```
+
+---
 
 ## Architecture Summary
 
