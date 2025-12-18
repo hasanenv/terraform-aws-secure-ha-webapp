@@ -1,5 +1,19 @@
 # Highly Available AWS Web Application with Terraform
 
+![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?logo=amazonaws&logoColor=white)
+
+![VPC](https://img.shields.io/badge/VPC-7B42BC?logo=amazonaws&logoColor=white)
+![Route%2053](https://img.shields.io/badge/Route%2053-7B42BC?logo=amazonaws&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?logo=amazonec2&logoColor=white)
+![ALB](https://img.shields.io/badge/ALB-FF9900?logo=amazonaws&logoColor=white)
+![ASG](https://img.shields.io/badge/ASG-FF9900?logo=amazonaws&logoColor=white)
+![S3](https://img.shields.io/badge/S3-3BB143?logo=amazons3&logoColor=white)
+![IAM](https://img.shields.io/badge/IAM-D13212?logo=amazonaws&logoColor=white)
+
+![cloud--init](https://img.shields.io/badge/cloud--init-6C757D?logo=linux&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+
 <p align="center">
   <img src="assets/tf-aws-alb.drawio.png" width="1300">
 </p>
@@ -91,4 +105,5 @@ Some realistic next steps for this architecture:
 ## Final Notes
 
 This project focuses on **design decisions**, **security**, and **reliability**, not just spinning up resources.  
+
 It reflects how cloud infrastructure is typically built and managed in real environments using Infrastructure as Code.
